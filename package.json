@@ -1,0 +1,19 @@
+{
+  "name": "@slosarek/greenlock-manager-data",
+  "version": "1.0.0",
+  "description": "Greenlack manager using a generic backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "mark@slosarek.com",
+  "license": "ISC",
+  "devDependencies": {
+    "greenlock-manager-test": "^3.1.1",
+    "mongodb-memory-server": "^8.4.0",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "@slosarek/greenlock-data-layer": "^1.0.2"
+  }
+}
