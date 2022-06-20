@@ -66,7 +66,7 @@ module.exports = {
           return (
             servernames.includes(config.subject) ||
             servernames.find((servername) =>
-              config.altnames.includes(servername)
+              (config.altnames || []).includes(servername)
             )
           );
         });
